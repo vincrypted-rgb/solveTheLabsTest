@@ -59,11 +59,3 @@ authentication token. What is it?**
 Be specific about what is included and what is excluded.**
 
 
-
-***                                                                 
-
-***Finished with the CTFs?***
-
-Please be sure to destroy the lab environment!
-
-[Click here for instructions on how to destroy the Lab Environment](/labdestruction.md)
