@@ -321,13 +321,3 @@ python3 tools/sat_gateway.py uplink.bin
 
 - Now we got our 3rd and final flag: **FLAG3{uplink_forged_locally}**
 
-
-
-
-
-***                                                                 
-***Finished with the Labs?***
-
-Please be sure to destroy the lab environment!
-
-[Click here for instructions on how to destroy the Lab Environment](/labdestruction.md)
