@@ -3,6 +3,8 @@
 # SQLMap
 
 # Ubuntu VM
+>[!Note]
+> This lab was created with the assumption that the user would be using a provided VM with the proper packages pre-installed when necessary. If you're doing this on your own virtual machine, this process may become more difficult. You will have to download packages to run the commands listed within this lab. Instructions for a build from your personal VM/the ground up are not included within this lab.
 
 ## Lab Goal
 
@@ -27,22 +29,8 @@ Run juice shop:
 ```bash
 sudo docker run -d --rm -p 3000:3000 --name juice-new bkimminich/juice-shop:v19.2.1
 ```
->[!Note]
->If that command fails with a response similar to **"sudo: docker: command not found"** you will have to install the necessary package to run this command.
->
->```bash
->sudo snap install docker
->```
->
->Confirm that docker has been installed by running:
->
->```bash
->docker --version
->```
->
->Once successful, retry the juice shop command before moving onto the next step.
 
-Verify it is running:
+Verify that juice shop is running:
 
 ```bash
 sudo docker ps
