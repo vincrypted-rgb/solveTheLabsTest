@@ -98,7 +98,7 @@ This is amazing, but it will not always be that simple. Let's capture the POST r
 
 At this point, we must mention that sqlmap operates with both GET and POST requests. For the demonstration of this lab, we will focus on how to use it with POST requests.
 
-Now its time to enable the burp proxy from our extension. Click on the extension on the top right of the browser and select the `burp` proxy.
+Now it's time to enable the burp proxy from our extension. Click on the extension in the top right of the browser and select the `burp` proxy.
 
 ![image](img_11.png)
 
@@ -174,7 +174,7 @@ This time, we see much more information from the sqlmap output, but still, we do
 It's time to introduce two new parameters that determine the number of payloads sqlmap will test and how aggressive these payloads will be.
 
 ```bash
-sqlmap -r req.txt -p email --dbs --batch --ignore-code=401 --level=5 --risk=4
+sqlmap -r req.txt -p email --dbs --batch --ignore-code=401 --level=5 --risk=3
 ```
 
 **Parameters**:
